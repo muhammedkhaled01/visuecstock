@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video page</title>
+    <title>Mobile page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style_ar.css">
+    <link rel="stylesheet" href="css/media-ar.css">
+    <link rel="stylesheet" href="css/jquery.flex-images.css">
+
 
 </head>
 
@@ -36,9 +39,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="Registration">
-                    <a href="index.html" class="btn-image btn-style btn">صور</a>
-                    <a href="video-page_ar.html" class="btn-video btn-style btn">فيديو</a>
-                    <a href="#" class="btn-video btn-style btn">موبيل</a>
+                    <a href="index.html" class="btn-image btn-acc login btn">صور</a>
+                    <a href="video-page_ar.html" class="btn-video btn-acc login btn">فيديو</a>
+                    <a href="mobile_ar.html" class="btn-video btn-acc login btn"> موبايل </a>
                 </div>
 
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -50,7 +53,7 @@
                         <a class="nav-link" href="about-us_ar.html">من نحن</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">تواصل معنا</a>
+                        <a class="nav-link " href="contact-us_ar.html">تواصل معنا</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">محتوى مجاني</a>
@@ -59,14 +62,8 @@
                 <div class="right-bar d-flex me-auto">
                     <!-- <a class="nav-link " href="#">حسابي</a> -->
                     <div class="btn-group d-inline-block mt-2">
-                        <button type="button" class="btn btn-acc border dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            اللغة
-                        </button>
-                        <ul class="dropdown-menu text-end">
-                            <li><a class="dropdown-item" href="index.html">العربية</a></li>
-                            <li><a class="dropdown-item" href="#">English</a></li>
-
+                        <ul class="language text-end">
+                            <li class="list-unstyled"><a class="language" href="#">English</a></li>
                         </ul>
                     </div>
                     <div class="account mt-2">
@@ -104,7 +101,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <div class="social">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -112,11 +109,11 @@
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-12">
                         <div class="text-center content_header">
                             <h1>محتوى عربي فيديو عالي الجودة بسعر مناسب</h1>
-                            <a href="register_ar.html" class="fixed_btn">سجل الأن</a>
+                            <a href="register_ar.html" class="fixed_btn text-white">سجل الأن</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +124,7 @@
     <!-- Start section_pricing -->
     <section class="bg-dark p-4 text-center section_pricing">
         <h3>
-            قم بتنزيل 10 صور الأن مجانا مع نسخة تجريبية خالية من المخاطر
+            قم بتنزيل 10 فيديو الأن مجانا مع نسخة تجريبية خالية من المخاطر
 
         </h3>
         <a href="#">ابدأ تجربتك المجانية </a>
@@ -164,68 +161,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="title_sections">هلا بالجديد </h2>
+                <h2 class="title_sections">فيديو لمشروعك القادم </h2>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
 
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
+
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img3.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
-                    <a href="#">
-                        <img src="images/img4.png" class="img-fluid img-card" alt="">
-                    </a>
+
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
-                    <div class="opacity">
 
-                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
+
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img3.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="container_image card">
-                    <a href="#">
-                        <img src="images/img4.png" class="img-fluid img-card" alt="">
-                    </a>
+
                 </div>
             </div>
             <div class="col-12">
@@ -237,77 +240,287 @@
                 </a>
 
             </div>
-
         </div>
     </div>
     <!-- End add section -->
 
     <!-- Start slide section -->
-    <div class="container">
-        <div class="row">
+    <section class="pt-5 flex-images-section">
+        <div class="container-fluid">
+
             <div class="col-12">
-                <h2 class="title_sections">مدن وعواصم </h2>
+                <h2 class="title_sections">الصور الرائجة </h2>
             </div>
-            <div class="col-12">
-                <div class="owl-carousel">
-                    <div class=" card">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
+            <div id="imageslandpage" class="flex-images">
 
-                        <a href="#" class="card_title" title="رجال">
-                            <span>رجال</span>
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px"
+                    style="width: 424px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg" alt="">
+                            <div class="hover-overlay"></div>
                         </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
                     </div>
-                    <div class=" card">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="نساء">
-                            <span>نساء</span>
-                        </a>
-                    </div>
-                    <div class=" card">
-                        <img src="images/img3.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="رياضة">
-                            <span>رياضة</span>
-                        </a>
-                    </div>
-                    <div class=" card">
-                        <img src="images/img4.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="صحة">
-                            <span>صحة</span>
-                        </a>
-                    </div>
-
-                    <div class=" card">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="أطعمة">
-                            <span>أطعمة</span>
-                        </a>
-                    </div>
-
-                    <div class=" card">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="أعمال">
-                            <span>أعمال</span>
-                        </a>
-                    </div>
-
                 </div>
-            </div>
-            <div class="col-12">
-                <a href="#" class="read_more">
-                    المزيد
-                    <div class="icon_left">
-                        <i class="fas fa-chevron-left"></i>
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px"
+                    style="width: 425px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
                     </div>
-                </a>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="186.00px"
+                    style="width: 590.2px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1597681174zfbem.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1597681174zfbem.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1611154498buuu4.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1611154498buuu4.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1590027889s4jxo.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1590027889s4jxo.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/21006/thumbnail/1627484027qo7hb.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/21006/thumbnail/1627484027qo7hb.jpg"
+                                alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="252.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/25523/thumbnail/1630577447yrj6i.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/25523/thumbnail/1630577447yrj6i.jpg"
+                                alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="247.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1622992765inlus.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1622992765inlus.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg"
+                                alt="اجتماع رجل اعمال سعودي خليجي مع سيدة اعمال سعودية خليجية في مكتب العمل ، تسجيل ملاحظات على الورق بالقلم ، العمل على الكمبيوتر المحمول ، شركاء عمل ، فريق عمل ، سكرتيرة اعمال ، بيئة عمل">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg"
+                                alt="طفلة سعودية مقعدة داخل رياض أطفال ، تقوم بالعديد من الأنشطة الممتعة والمختلفة ، طفلة من ذوي الاحتياجات الخاصة ، مجموعة أنشطة فردية تقوم بها الطفلة من ذوي الهمم ، دمج ذوي الاحتياجات الخاصة في رياض الأطفال والحاضنات">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="186.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                alt="سيدة اعمال سعودية خليجية تتبع اجراءات السلامة و الوقاية من فايروس كورونا اثتناء العمل  ، تجنب انتشار العدوى ، خلفية بيضاء">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/27098/thumbnail/1632164896sdgac.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/27098/thumbnail/1632164896sdgac.jpg"
+                                alt="أشجار النخيل المثمرة  في المملكة العربية السعودية ، مزارع لانتاج التمور ، المناطق الزراعية للنخيل ، جريد النخيل ، موسم حصاد التمور في السعودية ، مزرعة النخيل ، أراضي زراعية ، جمال الطبيعة في السعودية">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100" srcset="https://cdn.arabsstock.com/uploads/thumbnail/1620441934n6lhe.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/1620441934n6lhe.jpg"
+                                alt="رقاقات الشوكولاته الساخنه منزلية الصنع , رقاقات البسكويت الهشة والخفيفة على ورق الزبدة , .">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
 
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- End slide section -->
 
@@ -320,34 +533,44 @@
     </section>
     <!-- End section_register -->
 
-
-    <!-- Start add section -->
+    <!-- Start video section -->
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="title_sections">الفيديو الرائج </h2>
+                <h2 class="title_sections">فيديو لمشروعك القادم </h2>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="container_image card">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
 
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="container_image card">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
+
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="container_image card">
+                <div class="product_categories">
                     <a href="#">
-                        <img src="images/img3.png" class="img-fluid img-card" alt="">
+                        <div class="bg_category_product" style="background-image: url(images/product_category.jpg);">
+                            <div class="dark_overlay">
+                            </div>
+                        </div>
                     </a>
+
                 </div>
             </div>
             <div class="col-12">
@@ -361,74 +584,213 @@
             </div>
         </div>
     </div>
-    <!-- End add section -->
+    <!-- End video section -->
 
     <!-- Start slide section -->
-    <div class="container">
-        <div class="row">
+    <section class="pt-5 flex-images-section">
+        <div class="container-fluid">
+
             <div class="col-12">
-                <h2 class="title_sections">التصنيف الرائج </h2>
+                <h2 class="title_sections">صور لاعلانك القادم </h2>
             </div>
-            <div class="col-12">
-                <div class="owl-carousel">
-                    <div class=" card">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
+            <div id="imageslandpage" class="flex-images">
 
-                        <a href="#" class="card_title" title="رجال">
-                            <span>رجال</span>
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px"
+                    style="width: 424px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="product-view_ar.html">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg" alt="">
+                            <div class="hover-overlay"></div>
                         </a>
-                    </div>
-                    <div class=" card">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
 
-                        <a href="#" class="card_title" title="نساء">
-                            <span>نساء</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px"
+                    style="width: 425px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1608128225z8r7e.jpg" alt="">
+                            <div class="hover-overlay"></div>
                         </a>
-                    </div>
-                    <div class=" card">
-                        <img src="images/img3.png" class="img-fluid img-card" alt="">
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
 
-                        <a href="#" class="card_title" title="رياضة">
-                            <span>رياضة</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="186.00px"
+                    style="width: 590.2px; height: 283px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg" alt="">
+                            <div class="hover-overlay"></div>
                         </a>
-                    </div>
-                    <div class=" card">
-                        <img src="images/img4.png" class="img-fluid img-card" alt="">
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
 
-                        <a href="#" class="card_title" title="صحة">
-                            <span>صحة</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px"
+                    style="width: 369px; height: 246px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/27098/thumbnail/1632164896sdgac.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/27098/thumbnail/1632164896sdgac.jpg"
+                                alt="">
+                            <div class="hover-overlay"></div>
                         </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
                     </div>
+                </div>
 
-                    <div class=" card">
-                        <img src="images/img1.png" class="img-fluid img-card" alt="">
-
-                        <a href="#" class="card_title" title="أطعمة">
-                            <span>أطعمة</span>
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px"
+                    style="width: 369px; height: 246px; display: block;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100" srcset="https://cdn.arabsstock.com/uploads/thumbnail/1620441934n6lhe.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/1620441934n6lhe.jpg" alt="">
+                            <div class="hover-overlay"></div>
                         </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
                     </div>
+                </div>
 
-                    <div class=" card">
-                        <img src="images/img2.png" class="img-fluid img-card" alt="">
 
-                        <a href="#" class="card_title" title="أعمال">
-                            <span>أعمال</span>
+
+                <div class="item card-photo" data-w="390.00px" data-h="186.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1593950798opjsl.jpg"
+                                alt="سيدة اعمال سعودية خليجية تتبع اجراءات السلامة و الوقاية من فايروس كورونا اثتناء العمل  ، تجنب انتشار العدوى ، خلفية بيضاء">
+                            <div class="hover-overlay"></div>
                         </a>
-                    </div>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
 
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item card-photo" data-w="390.00px" data-h="259.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1603979914omnu0.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1603979914omnu0.jpg"
+                                alt="رجل اعمال سعودي في مكتبه و يعمل على الكمبيوتر المحمول بشاشة كروما خضراء ، شركة سعودية ، عمل الخليج ، وظيفة مكتبية ، بيئة عمل">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item card-photo" data-w="390.00px" data-h="260.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/21006/thumbnail/1627484027qo7hb.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/21006/thumbnail/1627484027qo7hb.jpg"
+                                alt="مجموعة من نباتات القمح ، شرائح خبز التوست المحمصة مصورة على خلفية سوداء">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="252.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/images/25523/thumbnail/1630577447yrj6i.jpg"
+                                src="https://cdn.arabsstock.com/uploads/images/25523/thumbnail/1630577447yrj6i.jpg"
+                                alt="نبات و شتلات صغيرة في مرحلة النمو في التربة الخصبة ، الزراعة و البستنة ، تطور نمو النباتات الطبيعية ">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item card-photo" data-w="390.00px" data-h="247.00px" style="display: none;">
+                    <div class="hover border-file">
+                        <a href="#">
+                            <img class="w-100"
+                                srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1622992765inlus.jpg"
+                                src="https://cdn.arabsstock.com/uploads/thumbnail/-1622992765inlus.jpg"
+                                alt="مهندسان  سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء , المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في العمل">
+                            <div class="hover-overlay"></div>
+                        </a>
+                        <div class="card-photo-content">
+                            <h3 class="card-photo-title">مهندسان سعوديان عاملان يشرفان في داخل المصنع في المملكة العربية
+                                السعودية , إرتداء خوذة وسترة الحماية الخاصة بالعمل , العامل المسؤول بخوذة صفراء ,
+                                المهندس المشرف بخوذة بيضاء , فحص المعدات بأنفسهم , تدقيق العمل , الإشراف والنقاش في
+                                العمل</h3>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12">
-                <a href="#" class="read_more">
-                    المزيد
-                    <div class="icon_left">
-                        <i class="fas fa-chevron-left"></i>
-                    </div>
-                </a>
-
-            </div>
         </div>
-    </div>
+    </section>
 
     <!-- End slide section -->
     <!-- Start section_contact us -->
@@ -436,7 +798,7 @@
         <h3>
             هل تحتاج محتوى مخصص
         </h3>
-        <a href="#" class="fixed_btn">كلمنا </a>
+        <a href="contact-us_ar.html" class="fixed_btn">تواصل معنا </a>
     </section>
     <!-- End section_contact us -->
     <!-- Start footer -->
@@ -478,11 +840,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src="js/jquery.flex-images.min.js"></script>
+
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
-
+    <script>
+        $('.flex-images').flexImages({ rowHeight: 290 });
+    </script>
 </body>
 
 </html>

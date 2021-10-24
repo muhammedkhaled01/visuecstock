@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style_ar.css">
+    <link rel="stylesheet" href="css/media-ar.css">
 </head>
 
 <body>
@@ -34,9 +35,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="Registration">
-                    <a href="index.html" class="btn-image btn-style btn">صور</a>
-                    <a href="video-page_ar.html" class="btn-video btn-style btn">فيديو</a>
-                    <a href="#" class="btn-video btn-style btn">موبيل</a>
+                    <a href="index.html" class="btn-image btn-acc login btn">صور</a>
+                    <a href="video-page_ar.html" class="btn-video btn-acc login btn">فيديو</a>
+                    <a href="mobile_ar.html" class="btn-video btn-acc login btn"> موبايل </a>
                 </div>
 
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -54,26 +55,34 @@
                         <a class="nav-link " href="#">محتوى مجاني</a>
                     </li>
                 </ul>
+
                 <div class="right-bar d-flex me-auto">
                     <!-- <a class="nav-link " href="#">حسابي</a> -->
                     <div class="btn-group d-inline-block mt-2">
-                        <button type="button" class="btn btn-acc border dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            اللغة
-                        </button>
-                        <ul class="dropdown-menu text-end">
-                            <li><a class="dropdown-item" href="index.html">العربية</a></li>
-                            <li><a class="dropdown-item" href="#">English</a></li>
-
+                        <ul class="language text-end">
+                            <li class="list-unstyled"><a class="language" href="#">English</a></li>
                         </ul>
                     </div>
                     <div class="account mt-2">
-                        <a href="login_ar.html" class="login btn btn-acc">تسجيل الدخول</a>
-                        <a href="register_ar.html" class="login btn btn-acc">اشتراك</a>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-user-alt"></i> حسابي
+                                </a>
+                                <ul class="dropdown-menu my_account" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item acc" href="dashboard_ar.html">بيانات الحساب</a></li>
+                                    <li><a class="dropdown-item exit" href="#">تسجيل الخروج</a></li>
+                                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                </ul>
+                            </li>
+                        </ul>
+
                     </div>
-                    <!-- <div class="cart mt-3 me-4">
-                        <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="cart ">
+                        <a href="cart-products_ar.html"><i class="fas fa-shopping-cart"></i></a>
                     </div> -->
+
                 </div>
 
             </div>
@@ -99,10 +108,15 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="container-productImg">
+                    <div class="photo">
+                        <img class="img-fluid w-100"
+                            srcset="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg"
+                            src="https://cdn.arabsstock.com/uploads/thumbnail/-1587042037nkatt.jpg" alt="">
+                    </div>
                 </div>
                 <div class="collections">
                     <ul>
@@ -122,7 +136,7 @@
                     <div class="title_product">
                         <h3 class="title_sections mb-4">مهندس سعودي يرتدي سترة وخوذة أمان يمسك بيده ايباد</h3>
                         <span class="number_image">رقم الصورة: 2483 </span>
-                        <p class="price_product">السعر : <b>69</b>درهم اماراتي </p>
+                        <!--                        <p class="price_product">السعر : <span>اشترك في الباقة يبدأ من .22 ريال للصورة</span>درهم اماراتي </p>-->
 
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -174,7 +188,9 @@
                         <hr>
                         <div class="btn-cart text-center">
 
-                            <button class="btn fixed_btn text-dark w-50 mt-3"><i class="fas fa-cart-plus ps-1"></i> إضافة للعربة </button>
+                            <a href="pricing_ar.html" class="btn fixed_btn text-dark w-50 mt-3">
+                                <i class="fas fa-cloud-download-alt"></i>
+                                تحميل </a>
                         </div>
 
                     </div>

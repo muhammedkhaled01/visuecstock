@@ -1,0 +1,46 @@
+@media(max-width:1200px) {
+    .btn-video, .btn-image {
+        margin-left: 10px;
+    }
+    .nav-link {
+        /* font-size: 18px; */
+        margin-left: 4px;
+    }
+    .content_header {
+        padding-top: 20px;
+    }
+    .links {
+        display: block;
+    }
+}
+
+@media (max-width:992px) {
+    .logo {
+        width: 15%;
+    }
+    .btn-image {
+        margin-right: 0px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .bg_category_product {
+        height: 291px;
+    }
+}
+
+@media(max-width: 576px) {
+    .logo {
+        width: 40%;
+    }
+    .content_header h1 {
+        font-size: 40px;
+    }
+    .section_pricing h3 {
+        line-height: 2;
+    }
+    .section_pricing a {
+        margin-right: 0;
+    }
+}

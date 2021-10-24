@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style_ar.css">
+    <link rel="stylesheet" href="css/media-ar.css">
 
 </head>
 
-<body>
+<body style="background-color: #f2f2f2;">
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -36,9 +37,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="Registration">
-                    <a href="index.html" class="btn-image btn-style btn">صور</a>
-                    <a href="video-page_ar.html" class="btn-video btn-style btn">فيديو</a>
-                    <a href="#" class="btn-video btn-style btn">موبيل</a>
+                    <a href="index.html" class="btn-image btn-acc login btn">صور</a>
+                    <a href="video-page_ar.html" class="btn-video btn-acc login btn">فيديو</a>
+                    <a href="#" class="btn-video btn-acc login btn"> موبايل </a>
                 </div>
 
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -50,7 +51,7 @@
                         <a class="nav-link" href="about-us_ar.html">من نحن</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">تواصل معنا</a>
+                        <a class="nav-link " href="contact-us_ar.html">تواصل معنا</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">محتوى مجاني</a>
@@ -59,14 +60,8 @@
                 <div class="right-bar d-flex me-auto">
                     <!-- <a class="nav-link " href="#">حسابي</a> -->
                     <div class="btn-group d-inline-block mt-2">
-                        <button type="button" class="btn btn-acc border dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            اللغة
-                        </button>
-                        <ul class="dropdown-menu text-end">
-                            <li><a class="dropdown-item" href="index.html">العربية</a></li>
-                            <li><a class="dropdown-item" href="#">English</a></li>
-
+                        <ul class="language text-end">
+                            <li class="list-unstyled"><a class="language" href="#">English</a></li>
                         </ul>
                     </div>
                     <div class="account mt-2">
@@ -81,42 +76,29 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <form class="d-flex search">
-                    <select name="" class="select-images" id="">
-                        <option value="" selected>All images</option>
-                        <option value="" selected>Photos</option>
-                        <option value="" selected>Vectors</option>
-                        <option value="" selected>Illustrations</option>
-                        <option value="" selected>Footage</option>
-                        <option value="" selected>All images</option>
-                    </select>
-                    <input class="form-control" type="search" placeholder="ابدأ بالبحث, مثال : طبيب, مكتب, مهندس"
-                        aria-label="Search">
-                    <button class="btn btn-search" type="submit"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
+
+
 
     <!-- Start pricing table -->
     <div class="container">
         <div class="row pricing_table">
             <div class="col-12">
                 <div class="title_text text-center mt-5 mb-5">
-                    <h2>اختار الباقة الي تناسبك </h2>
+                    <h2 class="title_sections">اختار الباقة الي تناسبك </h2>
                 </div>
             </div>
             <ul class="nav nav-tabs nav_pricing" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                        type="button" role="tab" aria-controls="home" aria-selected="true">شهريا</button>
+                    <button class="nav-link active" style="font-size: 20px; font-weight: 500;" id="home-tab"
+                        data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                        aria-selected="true">مستخدم واحد
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                        type="button" role="tab" aria-controls="profile" aria-selected="false">سنويا</button>
+                    <button class="nav-link" style="font-size: 20px; font-weight: 500;" id="profile-tab"
+                        data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                        aria-selected="false">عدة مستخدمين
+                    </button>
                 </li>
 
             </ul>
@@ -128,151 +110,152 @@
                                 <p>إختر الباقة الشهرية التي تناسبك واحصل على افضل سعر للصورة </p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>شهر</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
 
+                        <div class="col-sm-12 col-md-6 ">
+                            <div class="box_pricing">
+                                <p class="title_pricing">الأشتراك</p>
+                                <p class="content_body_pricing">ختر خطة شهرية للحصول على أفضل قيمة مقابل أموالك</p>
+
+                                <ul class="nav nav-tabs tabs_center" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images active" id="home-tab"
+                                            data-bs-toggle="tab" data-bs-target="#image1" type="button" role="tab"
+                                            aria-controls="image1" aria-selected="true">10 صور</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images" id="profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#image2" type="button" role="tab" aria-controls="image2"
+                                            aria-selected="false">50 صورة</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images" id="contact-tab" data-bs-toggle="tab"
+                                            data-bs-target="#image3" type="button" role="tab" aria-controls="image3"
+                                            aria-selected="false">350 صورة</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images" id="contact-tab" data-bs-toggle="tab"
+                                            data-bs-target="#image4" type="button" role="tab" aria-controls="image4"
+                                            aria-selected="false">750 صورة</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane container_link_tapPrice fade show active" id="image1"
+                                        role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">49</p>
+                                            <span>/شهر</span>
+                                        </div>
+                                        <div class="disc_pricing">4.90 دولارات للصورة - يمكنك الإلغاء في أي وقت</div>
+                                    </div>
+                                    <div class="tab-pane container_link_tapPrice fade" id="image2" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">125</p>
+                                            <span>/شهر</span>
+
+                                        </div>
+                                        <div class="disc_pricing">2.50 دولارات للصورة - يمكنك الإلغاء في أي وقت</div>
+
+                                    </div>
+                                    <div class="tab-pane container_link_tapPrice fade" id="image3" role="tabpanel"
+                                        aria-labelledby="contact-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">199</p>
+                                            <span>/شهر</span>
+                                        </div>
+                                        <div class="disc_pricing">0.57 دولارات للصورة - يمكنك الإلغاء في أي وقت</div>
+
+                                    </div>
+                                    <div class="tab-pane container_link_tapPrice fade" id="image4" role="tabpanel"
+                                        aria-labelledby="contact-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">750</p>
+                                            <span>/شهر</span>
+                                        </div>
+                                        <div class="disc_pricing">0.33 دولارات للصورة - يمكنك الإلغاء في أي وقت</div>
+
+                                    </div>
+                                    <div class="btn_submit">
+                                        <a href="payment_ar.html">اشترك الآن</a>
+                                    </div>
                                 </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>شهر</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
 
+                        <div class="col-sm-12 col-md-6 ">
+                            <div class="box_pricing">
+                                <p class="title_pricing">مجموعة عند الطلب</p>
+                                <p class="content_body_pricing">احصل على الصور التي تحتاجها عندما تحتاج إليها - بدون
+                                    التزامات</p>
+
+                                <ul class="nav nav-tabs tabs_center" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images active" id="home-tab"
+                                            data-bs-toggle="tab" data-bs-target="#image5" type="button" role="tab"
+                                            aria-controls="image5" aria-selected="true">5 صور</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link btn_tabs_images" id="profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#image6" type="button" role="tab" aria-controls="image6"
+                                            aria-selected="false">25 صورة</button>
+                                    </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane container_link_tapPrice fade show active" id="image5"
+                                        role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">49</p>
+                                        </div>
+                                        <div class="disc_pricing">9.80 دولارًا أمريكيًا / صورة - دفع لمرة واحدة - تنزيل
+                                            في غضون عام</div>
+
+                                    </div>
+                                    <div class="tab-pane container_link_tapPrice fade" id="image6" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+                                        <div class="price_image">
+                                            <p class="sign">$</p>
+                                            <p class="priceTag_price">125</p>
+                                        </div>
+                                        <div class="disc_pricing">9.16 دولارًا أمريكيًا / صورة - دفع لمرة واحدة - تنزيل
+                                            في غضون عام</div>
+
+                                    </div>
+
+
+                                    <div class="btn_submit">
+                                        <a href="payment_ar.html">اشترك الآن</a>
+                                    </div>
                                 </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>شهر</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
 
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>شهر</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
-
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="title-price-month">
-                                <p>إختر الباقة السانوية التي تناسبك واحصل على افضل سعر للصورة </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>سنويا</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
+                        <div class="col-sm-12 col-md-6 ">
+                            <div class="box_pricing " style="margin-top: 50px;">
+                                <p class="title_pricing">حساب الشركات </p>
+                                <p class="content_body_pricing">نجعل الإبداع بسيطًا للمؤسسات الكبيرة ، باستخدام أدوات
+                                    سير العمل الفعالة ، والترخيص المخصص ، وخدمات كبار الشخصيات.</p>
 
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="btn_submit">
+                                        <a href="enterprise_ar.html">اعرف المزيد</a>
+                                    </div>
                                 </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>سنويا</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
 
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>سنويا</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
 
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-                            <div class="card">
-                                <div class="card-header text-center">
-                                    <h4>10 صور </h4>
-                                </div>
-                                <div class="card-body">
-                                    <ul>
-                                        <li><b>سنويا</b> / 319 درهم اماراتي</li>
-                                        <li>31.9 للصورة</li>
-                                    </ul>
-
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="#" class="btn fixed_btn text-dark ">جرب الأن</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
